@@ -1,9 +1,8 @@
 #include "main.h"
 /**
   *_isalpha checks main.h
-  *@c: An input character
-  *Description: function returns 1 if character is 
-  *letter, lowercase or upercase
+  *@c: An input character.
+  *Description: function returns 1 if character is letter, lowercase or upercase.
   *Returns 1 otherwise 0.
   */
 int _isalpha(int c)
@@ -18,7 +17,6 @@ int _isalpha(int c)
 		{
 
 			if (c == islower || c == isupper)
-			
 				isletter = 1;
 
 		}
