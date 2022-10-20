@@ -14,7 +14,7 @@ int main(void)
 	for (low = 'z'; low >= 'a'; low--)
 	{
 		putchar(low);
-		putchar('\0');
+		putchar ('\0');
 	}
 
 	return (0);
