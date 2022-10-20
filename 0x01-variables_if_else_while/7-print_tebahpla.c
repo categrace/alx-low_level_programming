@@ -9,16 +9,15 @@
 
 int main(void)
 {
-	char letters[25], char low;
-	int i = 0;
-
+	char low;
+	
 	for (low = 'z'; low >= 'a'; low--)
 	{
 	
-		letters [i] = low;
-		i++;
+		putchar(low);
+		putchar ('\n');
 
 	}
 
-	putchar (letters);
+	return (0);
 }
