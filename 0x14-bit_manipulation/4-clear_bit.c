@@ -7,7 +7,7 @@
   * Return: 1 if it worked, or -1 on error
   */
 
-int clear_bit (unsigned long int *n, unsigned int index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
 	unsigned long int max = 0x01;
 
